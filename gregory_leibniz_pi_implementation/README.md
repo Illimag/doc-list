@@ -1,0 +1,9 @@
+# Not the most efficient way to compute pi.
+
+	./test > output.txt
+
+Create a near 1GB text file in under a minute.
+
+	x = 7323449
+
+	pi = 3.1415927901373681407903859508223831653594970703125000000000000000000000000000000000000000000000000000

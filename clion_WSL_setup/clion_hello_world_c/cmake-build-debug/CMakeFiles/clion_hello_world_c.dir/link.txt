@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/clion_hello_world_c.dir/main.c.o  -o clion_hello_world_c 

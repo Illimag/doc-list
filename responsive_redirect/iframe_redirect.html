@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<title>iframe url redirect</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+</head>
+<body style="margin:0">
+
+
+<script type='text/javascript'>
+var Phone ='<iframe src="https://mighty-crag-52337.herokuapp.com/" allowTransparency="true" scrolling="no" frameborder="0" height="100%" width="100%"  style="display:block;position:absolute;"></iframe>';
+var Web = '<iframe src="https://glacial-bayou-55896.herokuapp.com/" allowTransparency="true" scrolling="no" frameborder="0" height="100%" width="100%"  style="display:block;position:absolute;"></iframe>';
+var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+if ( w < 768){
+document.write (Phone)
+}else{
+document.write (Web)
+}
+</script> 
+
+</body>
+</html>

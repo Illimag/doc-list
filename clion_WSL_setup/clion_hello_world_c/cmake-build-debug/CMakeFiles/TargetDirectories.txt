@@ -1,0 +1,3 @@
+/mnt/c/Users/thinkpad_User/Desktop/N_DRIVE/github/custom/clion_WSL_setup/clion_hello_world_c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/thinkpad_User/Desktop/N_DRIVE/github/custom/clion_WSL_setup/clion_hello_world_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/thinkpad_User/Desktop/N_DRIVE/github/custom/clion_WSL_setup/clion_hello_world_c/cmake-build-debug/CMakeFiles/clion_hello_world_c.dir
