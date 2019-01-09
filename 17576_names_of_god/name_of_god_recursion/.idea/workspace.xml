@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4795cea9-2350-421b-9aab-cc4e060bab8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AAA_ZZZ_time_calculation.c" beforeDir="false" afterPath="$PROJECT_DIR$/AAA_ZZZ_time_calculation.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/name_of_god.c" beforeDir="false" afterPath="$PROJECT_DIR$/name_of_god.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,12 +58,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="1354" />
+          <entry key="c" value="1367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1354" />
+          <entry key="ObjectiveC" value="1367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,8 +98,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/AAA_ZZZ_time_calculation.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+                <state relative-caret-position="408">
+                  <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -128,9 +126,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1913" />
-    <option name="width" value="1543" />
-    <option name="height" value="1047" />
+    <option name="x" value="1898" />
+    <option name="y" value="4" />
+    <option name="width" value="1280" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,18 +179,18 @@
       <option name="presentableId" value="Default" />
       <updated>1546985151435</updated>
       <workItem from="1546985154477" duration="1836000" />
-      <workItem from="1546987130949" duration="10779000" />
+      <workItem from="1546987130949" duration="11030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12615000" />
+    <option name="totallyTimeSpent" value="12866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="1543" height="1047" extended-state="0" />
+    <frame x="1898" y="4" width="1280" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.060687795" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07377049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -227,8 +226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AAA_ZZZ_time_calculation.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+        <state relative-caret-position="408">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
         </state>
       </provider>
     </entry>
