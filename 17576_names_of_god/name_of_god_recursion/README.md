@@ -24,13 +24,6 @@ int main(){
 
 */
 
+I want to write this program so it can handle a depth of any number.
 
-#include <stdio.h>
-
-int NameofGod(n){
-
-
-
-}
-
-NameOfGod(9);
+So need to rewrite this without using a,b,c variables.
