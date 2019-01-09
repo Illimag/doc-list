@@ -13,7 +13,10 @@ int NameOfGod(int number){
     if(number==0){
         return(0);
     }else{
-        printf("%d\n",array_test[number-1]);
-        NameOfGod(--number);
+        for(number=number;number>0;){
+            printf("%d",array_test[number-1]);
+            NameOfGod(--number);
+        }
+        printf(" \n");
     }
 }
