@@ -59,12 +59,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="919" />
+          <entry key="c" value="925" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="919" />
+          <entry key="ObjectiveC" value="925" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/name_of_god.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -171,12 +171,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546985151435</updated>
       <workItem from="1546985154477" duration="1836000" />
-      <workItem from="1546987130949" duration="7044000" />
+      <workItem from="1546987130949" duration="7406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8880000" />
+    <option name="totallyTimeSpent" value="9242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1910" y="0" width="1280" height="1050" extended-state="0" />
@@ -219,7 +219,7 @@
     <entry file="file://$PROJECT_DIR$/name_of_god.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
