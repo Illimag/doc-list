@@ -22,7 +22,21 @@
 
     }
 
-    */
+    
+	"
+	NameOfGod( n ) {
+	    recustive_function( n, string1, "", whatever)
+	}
+
+	recursive_function( n, string1, result, whatever ){
+	    check if n or whatever is "done" () -> return result
+	    addition = recursive_function(n-1, modified string1, result,  modified whatever)
+	    result += addition to result
+	    return result
+	}
+	"
+
+*/
 
 I want to write this program so it can handle a depth of any number.
 
