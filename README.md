@@ -27,3 +27,6 @@ Single page app type navigation that allows cross DOM selecting, vanilla javascr
 
 ### 09. responsive_redirect
 Redirects to desktop or mobile versions of index pages depending on screen size.
+
+### 10. Ubot Studio
+Scripts for Ubot Studio
