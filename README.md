@@ -10,6 +10,8 @@ Instructions and batch file that will install the dependencies to run JetBrain's
 ### 03. craigslist_python_web_spider
 Python scraper that finds listing based on keyword, searches every city with craigslist.
 
+- Rotating User Agents and Proxy Spider
+
 ### 04. double_background_and_responsive_images
 Two background images overlay and fully web responsive images.
 
@@ -28,5 +30,11 @@ Single page app type navigation that allows cross DOM selecting, vanilla javascr
 ### 09. responsive_redirect
 Redirects to desktop or mobile versions of index pages depending on screen size.
 
-### 10. Ubot Studio
+### 10. ubot_studio
 Scripts for Ubot Studio
+
+### 11. input_output_json_python
+How to input and output dict with json files in Python
+
+### 12. buy_low_sell_high
+Concept trading algorithm
