@@ -1,0 +1,6 @@
+float XLM=0.11281397;
+float BAT=0.13493;
+float ZRX=0.31092696;
+float LINK=0.29438074;
+float MOBI=0.01888417;
+float XRP=0.35607772;
