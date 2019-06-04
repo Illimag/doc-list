@@ -41,3 +41,6 @@ Concept trading algorithm
 
 ### 13. ftp_nat_server
 Setting up FTP server and client behind a NAT router.
+
+### 14. watchdog
+Python dependency that watches for changes in a dir.
