@@ -16,3 +16,13 @@ add the event handler and observer
 	from watchdog.observers import Observer
 
 Will add an example in this dir.
+
+IMPORTANT:
+
+You can't name file watchdog.py
+
+It can be watchdog_test.py
+
+I dont know why but you can't name it watchdog.py
+
+Or else you will have a path issue.
