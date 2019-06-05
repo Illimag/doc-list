@@ -44,3 +44,6 @@ Setting up FTP server and client behind a NAT router.
 
 ### 14. watchdog
 Python dependency that watches for changes in a dir.
+
+### 15. AWS EC2 LAMP
+How to install a lamp server with AWS EC2
