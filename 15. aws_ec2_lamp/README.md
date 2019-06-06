@@ -14,25 +14,25 @@ Open putty, go to connection/SSH/Auth; Add private key for authentication.
 
 Go to session and add in the Host name "ec2-user@thepublicdnsname" for that instance and open.
 
-Run "sudo yum update"
+	sudo yum update
 
-Run "sudo -i"
+	sudo -i
 
-Run "cd /var/www/html"
+	cd /var/www/html
 
-Run "chown ec2-user ."
+	chown ec2-user .
 
-Its actually "sudo chown -R -v ec2-user /var/www/html"
+	sudo chown -R -v ec2-user /var/www/html
 
-sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
+	sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
 
-sudo yum install -y httpd mariadb-server
+	sudo yum install -y httpd mariadb-server
 
-sudo systemctl start httpd
+	sudo systemctl start httpd
 
-sudo systemctl enable httpd
+	sudo systemctl enable httpd
 
-sudo systemctl is-enabled httpd
+	sudo systemctl is-enabled httpd
 
 Test the public dns to see if apache test page is there, if so the server is up.
 
