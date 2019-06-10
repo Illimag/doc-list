@@ -32,7 +32,7 @@ class MyEventHandler(FileSystemEventHandler):
         #cwd = os.getcwd()  # Get the current working directory (cwd)
         #files = os.listdir(cwd)  # Get all the files in that directory
         #print("Files in '%s': %s" % (cwd, files))
-
+        
         #os.system('python ../check_master.py')
 
         # Because another file is created which is out_lead.json
@@ -50,9 +50,9 @@ class MyEventHandler(FileSystemEventHandler):
 
 def main(argv=None):
     path = "."
-    filename = "out_lead.json"
-    filename1 = "out1_lead.json"
-    filename2 = "out2_lead.json"
+    filename = "test"
+    filename1 = "test1"
+    filename2 = "test2"
     observer = Observer()
     event_handler = MyEventHandler(observer, filename, filename1, filename2)
     observer.schedule(event_handler, path, recursive=False)
