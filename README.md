@@ -45,5 +45,20 @@ Setting up FTP server and client behind a NAT router.
 ### 14. watchdog
 Python dependency that watches for changes in a dir.
 
-### 15. AWS EC2 LAMP
+### 15. aws_ec2_lamp
 How to install a lamp server with AWS EC2
+
+### 16. ftplib
+Python dependency for connecting to FTP server.
+
+### 17. domain_with_aws_ec2
+Connecting a Domain to an AWS EC2, which is a server instance from Amazon Web Services
+
+### 18. multithreading_queues_python
+How to implement a queue with multithreads in python
+
+### 19. file_lock_threading
+File Locking and Unlocking functionality for Windows and Linux in Python.
+
+### 20. reading_writing_same_json_file_python
+Read and write same json file with python, without closing between actions.
