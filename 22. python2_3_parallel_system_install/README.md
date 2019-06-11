@@ -105,3 +105,24 @@ For Javascript, nvm is recommended.
 
 Really recommend wrapping all python projects in it's own virtualenv.
 
+## Conda
+
+Installed with Anaconda, package manager it's like pip for python or npm for javascript.
+
+More information on Anaconda:
+
+	[23. anaconda_jupyter_notebook]
+
+Allows for version control for python installations.
+
+Check versions of python available for install
+
+	conda search -f python
+
+Install different version of Python in new environment
+
+	conda create -n snakes python=version#
+
+Switch to the new environment that has a different version of Python
+
+	source activate snakes

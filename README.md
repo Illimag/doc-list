@@ -69,3 +69,8 @@ Writing bash scripts to automate processes.
 ### 22. python2_3_parallel_system_install
 Installing python2 and 3 next to each other in shell.
 
+### 23. anaconda_jupyter_notebook
+Anaconda, conda, and jupyter Notebook
+
+### 24. calling_c_with_r
+Calling C files with R
