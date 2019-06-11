@@ -62,3 +62,6 @@ File Locking and Unlocking functionality for Windows and Linux in Python.
 
 ### 20. reading_writing_same_json_file_python
 Read and write same json file with python, without closing between actions.
+
+### 21. bash_script_automation
+Writing bash scripts to automate processes.
