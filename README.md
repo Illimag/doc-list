@@ -65,3 +65,7 @@ Read and write same json file with python, without closing between actions.
 
 ### 21. bash_script_automation
 Writing bash scripts to automate processes.
+
+### 22. python2_3_parallel_system_install
+Installing python2 and 3 next to each other in shell.
+
