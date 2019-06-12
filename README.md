@@ -74,3 +74,6 @@ Anaconda, conda, and jupyter Notebook
 
 ### 24. calling_c_with_r
 Calling C files with R
+
+### 25. assembly language inlined in C compiled with WASM to run on JavaScript
+Experiment to run assembly language in C program compiling to WASM to run on the browser with Javascript
