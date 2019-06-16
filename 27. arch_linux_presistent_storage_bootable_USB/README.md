@@ -139,7 +139,7 @@ Format the 500MB EFI System with FAT32.
 
 Then format linux part with EXT4.
 
-	mkfs-ext4 /dev/sd(x)3
+	mkfs.ext4 /dev/sd(x)3
 
 Install Base packages set:
 
@@ -149,13 +149,13 @@ Mount EX4 partition as root:
 
 	mkdir -p /mnt/usb
 
-	mount /dev/sd(x) /mnt/usb
+	mount /dev/sd(x)3 /mnt/usb
 
 Mount FAT32 formatted ESP partition to boot:
 
 	mkdir mnt/usb/boot
 
-	mount /dev/sd(x) /mnt/usb/boot
+	mount /dev/sd(x)2 /mnt/usb/boot
 
 ## pacstrap
 
@@ -163,7 +163,7 @@ Mount FAT32 formatted ESP partition to boot:
 
 ## fstab
 
-	genfstab -U /mnt/usb >> .mnt/usb/etc/fstab
+	genfstab -U /mnt/usb >> /mnt/usb/etc/fstab
 
 Get the correct bootnames:
 
@@ -181,7 +181,11 @@ Get the correct bootnames:
 
 Autoentries for region and city:
 
-	ln -sf /usr/share/zoneinfo/region/city /etc/localtime
+	ln -sf /usr/share/zoneinfo/(region)/(city) /etc/localtime
+
+To get region and city info:
+
+	tzselect
 
 Generate /etc/adjtime:
 
@@ -193,6 +197,14 @@ Uncomment desired language:
 
 	en_US.UTF-8
 
+Generate the locale info:
+
+	locale-gen
+
+Set the LANG variable:
+
+	echo LANG=en_US.UTF-8 > /etc/locale.conf
+
 ### hostname
 
 Create hostname:
@@ -201,7 +213,7 @@ Create hostname:
 
 Add hostname.
 
-	127.0.1.1 8.8.8.8.localdomain hostname
+	127.0.1.1 hostname.localdomain hostname
 
 ## RAM disk image
 
@@ -239,7 +251,7 @@ change mount option from relatime to notime.
 
 To enable booting the target USB stick in both boot modes. 
 
-	Install -S grub efibootmgr
+	pacman -S grub efibootmgr
 
 View current devices
 
