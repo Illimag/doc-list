@@ -83,3 +83,18 @@ Experiment of c compiled with WASM running on nodejs performance compared to van
 
 ### 27. arch_linux_presistent_storage_bootable_USB
 How to create a bootable USB Arch linux OS with presistent storage
+
+### 28. arch_linux_network
+Connecting to the internet with Arch Linux
+
+### 29. vim_set_nocompatible
+Changing vim config to allow for arrow key use
+
+### 30. arch_linux_packages
+Packages for Arch Linux
+
+### 31. arch_linux_firewall
+Firewall for Arch Linux
+
+### 32. arch_linux_install_web_browser
+Install various web browsers for Arch Linux
