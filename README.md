@@ -98,3 +98,6 @@ Firewall for Arch Linux
 
 ### 32. arch_linux_install_web_browser
 Install various web browsers for Arch Linux
+
+### 33. arch_linux_monitor_setting
+Arch Linux Monitor Settings
