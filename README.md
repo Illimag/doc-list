@@ -77,3 +77,9 @@ Calling C files with R
 
 ### 25. assembly language inlined in C compiled with WASM to run on JavaScript
 Experiment to run assembly language in C program compiling to WASM to run on the browser with Javascript
+
+### 26. c_javascript_performance_test
+Experiment of c compiled with WASM running on nodejs performance compared to vanilla javascript
+
+### 27. arch_linux_presistent_storage_bootable_USB
+How to create a bootable USB Arch linux OS with presistent storage
