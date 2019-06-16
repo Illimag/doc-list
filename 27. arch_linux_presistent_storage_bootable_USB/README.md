@@ -1,3 +1,25 @@
+# Arch Linux Presistent Storage Bootable USB
+
+Arch Linux is a Linux OS Distro. 
+
+To create bootable USB with presistent storage.
+
+Presistent storage is not set by default, and allows for all data to be saved after USB removed from machine.
+
+Need two USB.
+
+1. live installation USB
+
+2. target USB
+
+Starting from a live installation USB with Arch Linux already installed. 
+
+To install Arch Linux to USB, simply use a USB installer software.
+
+This will not have presistent storage.
+
+Boot with the live installation USB.
+
 ## Bootup live installation.iso
 
 z shell prompt.
@@ -47,7 +69,7 @@ Find current avaiable devices:
 
 	lsblk
 
-Insert USB Device to machine.
+Insert target USB Device to machine.
 
 Find with new device added to machine.
 
