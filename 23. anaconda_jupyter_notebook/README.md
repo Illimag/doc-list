@@ -53,4 +53,55 @@ This will launch the server
 
 	localhost:8888
 
+## Installing Anoconda with Arch Linux
 
+Firstly this will require 3G disk space.
+
+Next we need to have wget and bzip2.
+
+	pacman -S bzip2 wget
+
+Choose Installation path.
+
+We'll install to:
+
+	/usr/local/anaconda
+
+Find the repo for the most upto date anaconda version for the correct Linux version.
+
+Run it with wget
+
+	wget (repo-url)
+
+Here is where the direct repo for anaconda installer:
+
+	https://www.anaconda.com/distribution/#linux
+
+Directly downloaded to download folder.
+
+The downloaded file is a shell file so:
+
+Run as root because we will be installing it to system files:
+
+	sudo sh anaconda.sh
+
+Read License and say yes if you want to accept agreement.
+
+change path to:
+
+	/usr/local/anaconda
+
+At end of installation, say no to auto prepend.
+
+We will manually Prepend Path variable.
+
+	sudo vim ~/.bashrc
+
+Add the PATH variable:
+
+	# added by Anaconda3 installer
+	export PATH="/usr/local/anaconda/bin:$PATH"
+
+Restart terminal and test installation:
+
+	conda list

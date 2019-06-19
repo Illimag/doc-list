@@ -104,3 +104,6 @@ Arch Linux Monitor Settings
 
 ### 34. webapp_fullscreen_api
 Fullscreen mode API for web apps
+
+### 35. soccer_data_analysis
+Analysis of soccer data with python, pandas, numpy.

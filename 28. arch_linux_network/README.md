@@ -71,3 +71,9 @@ Test network:
 	ping google.com
 
 Terminal can be closed.
+
+## Set Time
+
+Make sure to set the time after connecting to the internet.
+
+	timedatectl set-ntp true
