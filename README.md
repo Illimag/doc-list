@@ -101,3 +101,6 @@ Install various web browsers for Arch Linux
 
 ### 33. arch_linux_monitor_setting
 Arch Linux Monitor Settings
+
+### 34. webapp_fullscreen_api
+Fullscreen mode API for web apps
