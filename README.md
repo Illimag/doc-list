@@ -107,3 +107,6 @@ Fullscreen mode API for web apps
 
 ### 35. soccer_data_analysis
 Analysis of soccer data with python, pandas, numpy.
+
+### 36. pandas_method_list
+A list of methods for Pandas a Python Data Science Library 
