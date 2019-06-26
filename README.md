@@ -110,3 +110,9 @@ Analysis of soccer data with python, pandas, numpy.
 
 ### 36. pandas_method_list
 A list of methods for Pandas a Python Data Science Library 
+
+### 37. numpy_methods_list
+A list of methods for Numpt a Python Data Science Library
+
+### 38. matplotlib_list
+A list for matplotlib which is a library to plot data with python.
