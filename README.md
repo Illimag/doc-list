@@ -116,3 +116,6 @@ A list of methods for Numpt a Python Data Science Library
 
 ### 38. matplotlib_list
 A list for matplotlib which is a library to plot data with python.
+
+### 39. san_jose_mediumvaluepersqft_all_homes_matplot
+Matplotlib graph of the medium value per sq ft of all houses in San Jose.

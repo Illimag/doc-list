@@ -8,10 +8,16 @@
 # Import matplotlib 
 from matplotlib import pyplot as plt
 
+# Import Sklearn
+from sklearn import datasets, linear_model
+
+# Import numpy
+import numpy as np
+
 # Plot function
 # X,Y Graph
-plt.plot(
-    [
+
+X = [
         199604, 199605, 199606, 199607, 199608, 199609, 199610, 199611, 199612,
         199701,199702,199703,199704,199705,199706,199707,199708,199709,199710,199711,199712,
         199801,199802,199803,199804,199805,199806,199807,199808,199809,199810,199811,199812,
@@ -36,8 +42,8 @@ plt.plot(
         201701,201702,201703,201704,201705,201706,201707,201708,201709,201710,201711,201712,
         201801,201802,201803,201804,201805,201806,201807,201808,201809,201810,201811,201812,
         201901,201902,201903,201904,201905
-        ], 
-    [
+        ]
+Y = [
         157,158,158,159,160,161,162,163,164,165,167,168,170,173,175,178,181,184,187,
         189,192,194,197,198,200,202,204,206,207,209,210,211,213,214,215,216,218,221,
         223,227,231,237,243,249,257,264,272,280,288,296,303,309,314,318,322,325,328,
@@ -53,7 +59,9 @@ plt.plot(
         545,553,561,567,571,576,580,583,585,588,592,596,599,600,601,602,604,607,612,
         618,626,635,641,646,650,652,655,660,668,679,693,707,718,730,746,758,766,777,
         785,787,787,791,793,788,782,777,767,755,744,734
-        ])
+        ]
+
+plt.plot(X,Y)
 
 # Add Title to top of Graph
 plt.title('SanJoseAllHomes')
@@ -61,6 +69,33 @@ plt.title('SanJoseAllHomes')
 plt.xlabel('YearMonth - (YYYYMM)')
 # Add Label to Y axis
 plt.ylabel('MediumValuePerSqFt')
+
+# Split the data into training/testing sets
+XX = X[-250:]
+
+# Split the targets into training/testing sets
+YY = Y[-250:]
+
+convert = np.array(XX)
+X_test = convert.reshape(1,-1)
+
+convert1 = np.array(YY)
+Y_test = convert1.reshape(1,-1)
+
+convert2 = np.array(X)
+X_train = convert2.reshape(1,-1)
+
+convert3 = np.array(Y)
+Y_train = convert3.reshape(1,-1)
+
+# Create linear regression object
+regr = linear_model.LinearRegression()
+
+# Train the model using the training sets
+regr.fit(X_train, Y_train)
+
+# Plot outputs
+plt.plot(X_test, regr.predict(X_test), color='red',linewidth=3)
 
 # Outputs the graph to png format
 plt.savefig('plot.png')
