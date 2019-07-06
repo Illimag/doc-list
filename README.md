@@ -119,3 +119,6 @@ A list for matplotlib which is a library to plot data with python.
 
 ### 39. san_jose_mediumvaluepersqft_all_homes_matplot
 Matplotlib graph of the medium value per sq ft of all houses in San Jose.
+
+### 40. census_api_request
+API request to the US government census website, for each state, median age and average family size.
