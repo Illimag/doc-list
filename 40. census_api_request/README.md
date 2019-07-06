@@ -18,9 +18,9 @@ This will build the URL as following.
 
 Specify the census variables.
 
-# "P013001" (median age)
+### "P013001" (median age)
 
-# "P037001" (average family size)
+### "P037001" (average family size)
 
 	get_vars = ["NAME", "P013001", "P037001"]
 	predicates = {}
