@@ -122,3 +122,6 @@ Matplotlib graph of the medium value per sq ft of all houses in San Jose.
 
 ### 40. census_api_request
 API request to the US government census website, for each state, median age and average family size.
+
+### 41. census_seaborn_scatterplot_regression
+Generating a scatterplot with a regression line with seaborn
