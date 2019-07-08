@@ -34,3 +34,6 @@ After creating the data frame, run the script to generate a scatterplot to visua
     # Scatterplot with regression line
     sns.lmplot(x = "avg_family_size", y = "median_age", data = states)
     plt.show()
+
+Here is the picture of the graph.
+![graph](graph.png)
