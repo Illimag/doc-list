@@ -42,4 +42,3 @@ states["avg_family_size"] = states["avg_family_size"].astype(float)
 # Scatterplot with regression line
 sns.lmplot(x = "avg_family_size", y = "median_age", data = states)
 plt.show()
-plt.savefig("graph.png")
