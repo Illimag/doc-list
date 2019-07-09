@@ -1,4 +1,4 @@
-R, R Studio, Arch Linux OS
+# R, R Studio, Arch Linux OS
 
 These are instruction on how to install the R programming language as well as the R Studio GUI Package onto an Arch Linux OS.
 

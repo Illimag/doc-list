@@ -131,3 +131,9 @@ Generating a stripplot with seaborn, visualizing data from the US Census API of 
 
 ### 43. r, rstudio, arch linux os
 Installing R Programming Language, R Studio GUI/IDE on Arch linux OS.
+
+### 44. create_update-grub
+How to create a update-grub shell script.
+
+### 45. intel_idle.max_cstate
+How to fix a Baytrail complete freeze bug by adding intel_index.max_cstate to the Kernal with grub.
