@@ -125,3 +125,6 @@ API request to the US government census website, for each state, median age and 
 
 ### 41. census_seaborn_scatterplot_regression
 Generating a scatterplot with a regression line with seaborn
+
+### 42. API_visualization_group_quarters
+Generating a stripplot with seaborn, visualizing data from the US Census API of US Juvenile Incarceration per state.
