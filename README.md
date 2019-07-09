@@ -128,3 +128,6 @@ Generating a scatterplot with a regression line with seaborn
 
 ### 42. API_visualization_group_quarters
 Generating a stripplot with seaborn, visualizing data from the US Census API of US Juvenile Incarceration per state.
+
+### 43. r, rstudio, arch linux os
+Installing R Programming Language, R Studio GUI/IDE on Arch linux OS.
