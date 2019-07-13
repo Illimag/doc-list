@@ -137,3 +137,6 @@ How to create a update-grub shell script.
 
 ### 45. intel_idle.max_cstate
 How to fix a Baytrail complete freeze bug by adding intel_index.max_cstate to the Kernal with grub.
+
+### 46. pushing_from_google_cloud_shell
+Saying hi from the Google Cloud Shell
