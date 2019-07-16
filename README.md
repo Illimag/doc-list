@@ -140,3 +140,6 @@ How to fix a Baytrail complete freeze bug by adding intel_index.max_cstate to th
 
 ### 46. pushing_from_google_cloud_shell
 Saying hi from the Google Cloud Shell
+
+### 47. EGPU_benchmark_test
+Benchmark test for EGPU.
