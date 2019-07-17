@@ -2,19 +2,19 @@
 
 ## Specs
 
-EGPU: Razer Core V2
+Enclosure: Razer Core V2
 Machine: Thinkpad P50
 CPU: i7-6700HQ @ 2.60GHz x4
-GPU0: HD Graphics 530
+GPU: HD Graphics 530
 GPU1: Quadro M1000M
-GPU2: GTX 1080
+EGPU: GTX 1080
 
 ## Heaven Benchmark 4.0
 
-### First Test.
+### First Test
 
 GPU1: 941
 
-### Second Test.
+### Second Test
 
-GPU2: 3044
+EGPU: 3044
