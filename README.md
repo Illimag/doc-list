@@ -143,3 +143,12 @@ Saying hi from the Google Cloud Shell
 
 ### 47. EGPU_benchmark_test
 Benchmark test for EGPU.
+
+### 48. CUDA_programming_model
+Overview of CUDA a parallel programming platform by Nvidia
+
+### 49. CUDA_CPU_to_GPGPU
+Converting a program written for a CPU to a GPGPU
+
+### 50. CUDA_benchmark_test
+Benchmark test for CUDA
