@@ -152,3 +152,6 @@ Converting a program written for a CPU to a GPGPU
 
 ### 50. CUDA_benchmark_test
 Benchmark test for CUDA
+
+### 51. optimize_windows_10
+Simple things that make Windows 10 faster out of the box as an end user
