@@ -23,6 +23,22 @@ Run the script which is a bash file.
 
 Install is simple, even adding the path for you.
 
+When the installation asks if you would like to initialize Anaconda3 by running conda init:
+
+	yes
+
+Then after go to path of conda then:
+
+	source path/bin/activate
+
+Then:
+
+	conda init
+
+This will automatically set path for you.
+
+If somehow this needs to be done manually:
+
 Don't forget
 
 	source ~/.bashrc
