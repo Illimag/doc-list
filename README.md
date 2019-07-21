@@ -155,3 +155,6 @@ Benchmark test for CUDA
 
 ### 51. optimize_windows_10
 Simple things that make Windows 10 faster out of the box as an end user
+
+### 52. git_large_file_storage
+Pushing files larger than 50MB with git using lfs dependency.
