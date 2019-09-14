@@ -160,3 +160,21 @@ Simple things that make Windows 10 faster out of the box as an end user
 
 ### 52. git_large_file_storage
 Pushing files larger than 50MB with git using lfs dependency.
+
+### 53. swipe_movement_card_list
+Concepts sketch of horizontal and vertical swipe interactions for cards in a horizontal list.
+
+### 54. bezel_flipper
+An interaction that gives an effect of a paper page flipping.
+
+### 55. delft_ai_toolkit
+A toolkit to interact with Machine Intellegence.
+
+### 56. peppers_cone
+A simple way to display 3D objects over a tablet interface.
+
+### 57. microsoft_notebook_whiteboard_test
+Whiteboard test of the Microsoft Notebook UI Design.
+
+### 58. persona_spectrum_limitations
+Persona Spectrum Limitations by Microsoft Design.
