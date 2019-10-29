@@ -1,7 +1,7 @@
 # C and Javascript performance test
 
 Jaemin Kim
-5/26/3019
+5/26/2019
 
 ## Description
 

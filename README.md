@@ -176,5 +176,10 @@ Whiteboard test of the Microsoft Notebook UI Design.
 ### 57. persona_spectrum_limitations
 Persona Spectrum Limitations by Microsoft Design.
 
+<<<<<<< HEAD
 ### 58. git_commands
 Overview of git commands
+=======
+### 58. diagonal_grid
+Whiteboard test of diagonal grids.
+>>>>>>> 0dda02748fe8fc656bc6c2be57ea3483f333665d
