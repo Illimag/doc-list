@@ -176,10 +176,11 @@ Whiteboard test of the Microsoft Notebook UI Design.
 ### 57. persona_spectrum_limitations
 Persona Spectrum Limitations by Microsoft Design.
 
-<<<<<<< HEAD
-### 58. git_commands
-Overview of git commands
-=======
 ### 58. diagonal_grid
-Whiteboard test of diagonal grids.
->>>>>>> 0dda02748fe8fc656bc6c2be57ea3483f333665d
+Whiteboard test of a diagonal grid
+
+### 59. paragraph_indent_sibling_selector
+Overview of paragraph indents in sibling selectors
+
+### 60. git_commands
+Overview of git commands
