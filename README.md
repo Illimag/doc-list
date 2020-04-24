@@ -190,3 +190,6 @@ Web cross platform font face styling
 
 ### 62. wsl1_upgrade_wsl2
 How to upgrade to WSL2 with Windows Insider Program
+
+### 63. vi_arrow_keys_backspace
+Arrow keys and backspace usage on new vi terminal
