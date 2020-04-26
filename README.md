@@ -195,3 +195,4 @@ How to upgrade to WSL2 with Windows Insider Program
 Arrow keys and backspace usage on new vi terminal
 
 ### 64. github_error_400_ssh_key_local_machine_http_request_authentication
+Recent Github changes now requiring ssh and rga keys for authentication
